@@ -1,0 +1,171 @@
+@font-face {
+    font-family: gwendolyn;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/gwendolyn/v3/qkBXXvoO_M3CSss-d7eu7J5KsgbLMOGL.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: gwendolyn;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/gwendolyn/v3/qkBXXvoO_M3CSss-d7eu7Z5KsgbLMOGL.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: gwendolyn;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/gwendolyn/v3/qkBXXvoO_M3CSss-d7eu455KsgbLMA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+body {
+    font-family: roboto slab, serif;
+    /* background: #e6f4fd !important; */
+    height: 100vh;
+    text-align: center !important;
+    margin: 0;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to right, #f9fcfe, #ddf0fd);
+}
+
+.guest {
+    font-size: 1.4rem;
+    color: #719dbe
+}
+
+.guest-name {
+    text-transform: capitalize;
+    /* font-family: Gwendolyn, cursive; */
+}
+
+.the-wedding-of {
+    color: #719dbe;
+    margin-top: 8px;
+    font-size: 1.5rem;
+    font-family: Gwendolyn, cursive;
+    
+}
+
+.our-name {
+    margin-top: 12px;
+    font-family: Gwendolyn, cursive;
+    font-size: 3.2rem;
+    color:  #216598
+}
+
+.invitation-image {
+    max-height: 60vh;
+    object-fit: contain;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.footer {
+    font-family: Gwendolyn, cursive;
+    font-size: 2.8rem;
+    color: #3573a2;
+    margin-top: 5px;
+}
+
+.date {
+    font-size: 1.4rem;
+    color: #216598
+}
+
+.normal-text {
+    text-decoration: unset;
+    color: unset
+}
+
+.location,
+.location-detail {
+    color: #3573a2;
+    margin-top:6px;
+}
+
+.leaf {
+    height: 35px
+}
+
+.leaf-left {
+    margin-right: 30px
+}
+
+.leaf-right {
+    transform: rotateY(180deg);
+    margin-left: 40px
+}
+
+@media only screen and (max-device-width:480px) {
+    .guest-name {
+        font-size: 1.7rem
+    }
+
+    html {
+        font-size: 19px
+    }
+
+    body {
+        height: 95vh;
+        font-size: 1.7rem;
+        
+    }
+
+    .our-name {
+        font-size: 5rem
+    }
+
+    .invitation-image {
+        width: 100%;
+        max-width: unset;
+        max-height: unset
+    }
+
+    .date {
+        font-size:1.5rem
+    }
+   
+
+    .footer {
+        font-size: 5rem;
+        margin-top: 60px
+    }
+
+    .leaf {
+        height: 60px
+    }
+}
+
+@media only screen and (max-height:630px) {
+
+    .location,
+    .location-detail {
+        font-size: 1rem;
+        color: #aec9dc
+    }
+
+    .guest {
+        padding-top: 5px
+    }
+
+    .our-name {
+        margin-top: 5px;
+        font-size: 3rem
+    }
+
+    .invitation-image {
+        max-width: 40%
+    }
+
+    .footer,
+    .map {
+        display: none
+    }
+}
