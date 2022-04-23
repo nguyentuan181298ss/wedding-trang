@@ -57,7 +57,7 @@ body {
     margin-top: 12px;
     font-family: Gwendolyn, cursive;
     font-size: 3rem;
-    color:  #216598
+    color:  #216598;
 }
 
 .invitation-image {
@@ -120,7 +120,9 @@ body {
  
 
     .our-name {
-        font-size: 5rem
+        font-size: 5rem;
+        font-weight:500;
+
     }
 
     .invitation-image {
@@ -132,11 +134,11 @@ body {
     }
 
     .date {
-        font-size: 1.4rem
+        font-size: 1.8rem
     }
     .location,
      .location-detail {
-        font-size: 1rem;
+        font-size: 1.4rem;
 }
 
     .footer {
@@ -150,12 +152,14 @@ body {
 }
 
 @media only screen and (max-height:630px) {
-
-    .location,
-    .location-detail {
-        font-size: 1rem;
-        color: #aec9dc
+    
+    .date {
+        font-size: 1.8rem
     }
+    .location,
+     .location-detail {
+        font-size: 1.4rem;
+}
 
     .guest {
         padding-top: 5px
@@ -163,7 +167,9 @@ body {
 
     .our-name {
         margin-top: 5px;
-        font-size: 3rem
+        font-size: 3rem;
+        font-weight:500;
+
     }
 
     .invitation-image {
