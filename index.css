@@ -56,12 +56,12 @@ body {
 .our-name {
     margin-top: 12px;
     font-family: Gwendolyn, cursive;
-    font-size: 3.2rem;
+    font-size: 3rem;
     color:  #216598
 }
 
 .invitation-image {
-    max-height: 60vh;
+    max-height: 55vh;
     object-fit: contain;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -109,37 +109,43 @@ body {
     }
 
     html {
-        font-size: 19px
+        font-size: 20px
     }
 
     body {
-        height: 95vh;
+        height: 90vh;
         font-size: 1.7rem;
         
     }
+ 
 
     .our-name {
         font-size: 5rem
     }
 
     .invitation-image {
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 100%;
         max-width: unset;
         max-height: unset
     }
 
     .date {
-        font-size:1.5rem
+        font-size: 1.4rem
     }
-   
+    .location,
+     .location-detail {
+        font-size: 1rem;
+}
 
     .footer {
-        font-size: 5rem;
+        font-size: 6rem;
         margin-top: 60px
     }
 
     .leaf {
-        height: 60px
+        height: 70px
     }
 }
 
