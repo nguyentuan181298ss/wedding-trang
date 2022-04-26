@@ -43,20 +43,19 @@ body {
 }
 
 .guest {
-  font-size: 1.4rem;
-  color: #719dbe;
+    font-size: 1.3rem;
+    color: #216598
 }
 
 .guest-name {
   text-transform: capitalize;
-  /* font-family: Gwendolyn, cursive; */
 }
 
 .the-wedding-of {
-  color: #719dbe;
-  margin-top: 8px;
-  font-size: 1.5rem;
-  font-family: Gwendolyn, cursive;
+    color: #216598;
+    margin-top: 8px;
+    font-size: 1.3rem;
+    
 }
 
 .our-name {
@@ -93,7 +92,7 @@ body {
 .location,
 .location-detail {
   color: #3573a2;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .leaf {
@@ -111,13 +110,13 @@ body {
 
 @media only screen and (max-device-width: 480px) {
   .guest-name {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .guest {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .the-wedding-of {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   html {
@@ -147,7 +146,8 @@ body {
   }
   .location,
   .location-detail {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    margin-top: 8px;
   }
 
   .footer {
